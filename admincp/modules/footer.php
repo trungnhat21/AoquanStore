@@ -1,0 +1,1 @@
+<h3 style="text-align: center; padding:45px; font-size:2rem; background-color: #b3c6ff">W/n developer 2025</h3>

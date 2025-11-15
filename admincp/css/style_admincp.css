@@ -1,0 +1,73 @@
+.header_admin {
+    color: black;
+
+}
+ul.admincp_list {
+    padding: 0 0 80px 0;
+    margin: 0;
+    list-style: none;
+}
+ul.admincp_list li {
+    float: left;
+    margin: 0 0 0 120px;
+    font-size: 20px;
+    padding: 10px;
+}
+ul.admincp_list li:hover{
+    background-color: orangered;
+}
+ul.admincp_list li a {
+    text-decoration: none;
+}
+h3.title_admin {
+    text-align: center;
+    font-size: 30px;
+    color: #3333ff;
+}
+.wrapper{
+    border: 3px solid black;
+    height: auto;
+    width: 90%;
+    margin:0 auto;
+    background-color: #e6ecff;
+}
+.clear{
+   clear: both; 
+}
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card {
+    flex: 1;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.icon {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.value {
+    font-size: 22px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+.label {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-top: 5px;
+}
