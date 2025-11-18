@@ -36,15 +36,15 @@ if (isset($_POST['dangky'])) {
     </tr>
     <tr>
         <td style="width: 20%; font-size: 20px;">Email</td>
-        <td><input style="width: 70%;" type="email" name="email"></td>
+        <td><input style="width: 69%; padding: 10px;" type="email" name="email"></td>
     </tr>
     <tr>
         <td style="width: 20%; font-size: 20px;">Mật khẩu</td>
-        <td><input style="width: 70%;" type="password" name="matkhau"></td>
+        <td><input style="width: 69%; padding: 10px;" type="password" name="matkhau"></td>
     </tr>
     <tr>
         <td style="width: 20%; font-size: 20px;">Số điện thoại</td>
-        <td><input style="width: 70%;" type="text" name="dienthoai"></td>
+        <td><input style="width: 70%;" type="text" name="dienthoai" pattern="[0-9]*"></td>
     </tr>
     <tr>
         <td colspan="2"><input style="width: 10%; padding: 10px; font-size: 16px; background-color: #8080ff; color: white; border: none; border-radius: 5px;" type="submit" name="dangky" value="Đăng ký">

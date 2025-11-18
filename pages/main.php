@@ -18,7 +18,9 @@
                         include("main/dangky.php");
                     } elseif($tam == 'dangnhap') {
                         include("main/dangnhap.php");
-                    } elseif($tam == 'thanhtoan') {
+                    } elseif($tam == 'doimatkhau') {
+                        include("main/doimatkhau.php");
+                    }elseif($tam == 'thanhtoan') {
                         include("main/thanhtoan.php");
                     } elseif($tam == 'thongtin') {
                         include("main/thongtin.php");

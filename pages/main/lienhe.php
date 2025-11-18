@@ -39,11 +39,11 @@
                 <th colspan="2">Bạn cần hỗ trợ?</th>
             </tr>
             <tr style="border:none;">
-                <td><input style="background-color:#4d4dff;" type="text" name="hoten" placeholder="Họ tên"></td>
-                <td><input style="background-color:#4d4dff;" type="text" name="email" placeholder="Email"></td>
+                <td><input style="background-color:#4d4dff; padding-right: 300px;" type="text" name="hoten" placeholder="Họ tên"></td>
+                <td><input style="background-color:#4d4dff; padding: 12px 80px" type="email" name="email" placeholder="Email"></td>
             </tr>
             <tr style="border:none">
-                <td colspan="2" style="text-align:center; padding: 10px"><textarea style="width:500px; height:100px" name="noidung" placeholder="Nội dung"></textarea></td>
+                <td colspan="2" style="text-align:center; padding: 10px"><textarea style="width:600px; height:100px" name="noidung" placeholder="Nội dung"></textarea></td>
             </tr>
             <tr style="border:none">
                 <td colspan="2" style="text-align: center;"><button style="padding: 10px 40px; background-color:blue; border-radius:5px" type="submit" name="gui">Gửi</button></td>

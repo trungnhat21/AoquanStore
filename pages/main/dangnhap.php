@@ -20,6 +20,11 @@ if(isset($_POST['dangnhap'])) {
     }
 }
 ?>
+<?php
+if(isset($_POST['doimatkhau'])) {
+    header("Location:index.php?quanly=doimatkhau");
+}
+?>
 <form action="" autocomplete="off" method="post">
     <table width="40%" style="border-spacing: 10px; text-align:center; margin-left: 200px;">
         <tr>
@@ -32,7 +37,10 @@ if(isset($_POST['dangnhap'])) {
             <td style="padding: 10px;"><input style="width: 80%; padding: 10px 5px 10px 5px;" type="password" name="password" placeholder="Password"></td>
         </tr>
         <tr>
-            <td><button style="padding: 10px 30px; background-color:blue; border-radius:5px" type="submit" name="dangnhap">Sign in</button></td>
+            <td><button style="padding: 10px 45px; background-color:blue; border-radius:5px" type="submit" name="dangnhap">Sign in</button></td>
+        </tr>
+        <tr>
+            <td><button style="padding: 10px 12px; background-color:blue; border-radius:5px" type="submit" name="doimatkhau">Change password</button></td>
         </tr>
     </table>
     </form>
