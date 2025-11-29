@@ -23,7 +23,7 @@
             <td style="text-align:center"><?php echo $row['email']; ?></td>
             <td style="text-align:center"><?php echo $row['noidung']; ?></td>
             <td style="text-align:center">
-                <a style="text-decoration:none; background-color: #9999ff; padding:5px 10px 5px 10px; border-radius:5px" href="modules/quanlysp/xuly.php?idkhachhang=<?php echo $row['id_lienhe']; ?>">Xóa</a>
+                <a style="text-decoration:none; background-color: #9999ff; padding:5px 10px 5px 10px; border-radius:5px; font-size: 20px;" href="modules/quanlysp/xuly.php?idkhachhang=<?php echo $row['id_lienhe']; ?>"><i class="fa fa-trash" style="color: red;" aria-hidden="true"></i></a>
             </td>
         </tr>
     <?php

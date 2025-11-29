@@ -22,6 +22,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style type="text/css">
         body {
             height: 100vh;
@@ -33,7 +34,7 @@
         .color {
             width: 60%;
             background-color: #8585e0;
-            padding: 200px 100px 200px 100px;
+            padding: 100px 50px 100px 50px;
             border-radius: 20px;
         }
         .wrapper-login {
@@ -71,15 +72,18 @@
         <tr>
             <td><h3>Welcome to Admin</h3></td>
         </tr>
+        <tr>
+            <td><i class="fa fa-user" style="font-size:50px" aria-hidden="true"></i></td>
+        </tr>
         <tr >
             
-            <td><input type="text" name="username" placeholder="Email Address"></td>
+            <td><input style="padding: 8px; width: 80%;" type="text" name="username" placeholder="Email Address"></td>
         </tr>
         <tr>
-            <td><input type="password" name="password" placeholder="Password"></td>
+            <td><input style="padding: 8px; width: 80%;" type="password" name="password" placeholder="Password"></td>
         </tr>
         <tr>
-            <td><button type="submit" name="login">Sign in</td>
+            <td><button style="padding: 10px; width: 40%; background-color: #3333ff; color: white; border-radius: 5px;" type="submit" name="login">Sign in</button></td>
         </tr>
     </table>
     </form>

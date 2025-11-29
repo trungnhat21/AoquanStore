@@ -29,7 +29,7 @@
             <td style="text-align:center"><?php echo $row['diachinhanhang']; ?></td>
             <td style="text-align:center"><?php echo $row['sodienthoai']; ?></td>
             <td style="text-align:center">
-                <a style="text-decoration:none; background-color: #9999ff; padding:5px 10px 5px 10px; border-radius:5px" href="modules/quanlysp/xuly.php?iddonhang=<?php echo $row['id_donhang']; ?>">Xóa</a>
+                <a style="text-decoration:none; background-color: #9999ff; padding:5px 10px 5px 10px; border-radius:5px; font-size: 20px;" href="modules/quanlysp/xuly.php?iddonhang=<?php echo $row['id_donhang']; ?>"><i class="fa fa-trash" style="color: red;" aria-hidden="true"></i></a>
             </td>
         </tr>
     <?php

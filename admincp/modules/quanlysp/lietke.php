@@ -36,8 +36,8 @@
         echo 'Đóng';
       } ?></td>
     <td style="text-align:center;">
-        <a style="text-decoration:none; background-color: #9999ff; padding:5px 10px 5px 10px; border-radius:5px" href="modules/quanlysp/xuly.php?idsanpham=<?php echo $row['id_sanpham'] ?>">Xóa</a> | 
-        <a style="text-decoration:none; background-color: #9999ff; padding:5px 10px 5px 10px; border-radius:5px" href="?action=quanlysanpham&query=sua&idsanpham=<?php echo $row['id_sanpham'] ?>">Sửa</a>
+        <a style="text-decoration:none; background-color: #9999ff; padding:5px 10px 5px 10px; border-radius:5px; font-size: 20px;" href="modules/quanlysp/xuly.php?idsanpham=<?php echo $row['id_sanpham'] ?>"><i class="fa fa-trash" style="color: red;" aria-hidden="true"></i></a> | 
+        <a style="text-decoration:none; background-color: #9999ff; padding:5px 10px 5px 10px; border-radius:5px; font-size: 20px;" href="?action=quanlysanpham&query=sua&idsanpham=<?php echo $row['id_sanpham'] ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
     </td>
   </tr>
     <?php

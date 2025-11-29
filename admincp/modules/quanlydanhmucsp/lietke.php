@@ -18,8 +18,8 @@
     <td style="text-align:center"><?php echo $i ?></td>
     <td style="text-align:center"><?php echo $row['tendanhmuc'] ?></td>
     <td style="text-align:center; padding:10px; width:20%">
-        <a style="text-decoration:none; background-color: #9999ff; padding:5px 10px 5px 10px; border-radius:5px" href="modules/quanlydanhmucsp/xuly.php?iddanhmuc=<?php echo $row['id_danhmuc'] ?>">Xóa</a> | 
-        <a style="text-decoration:none; background-color: #9999ff; padding:5px 10px 5px 10px; border-radius:5px" href="?action=quanlydanhmucsanpham&query=sua&iddanhmuc=<?php echo $row['id_danhmuc'] ?>">Sửa</a>
+        <a style="text-decoration:none; background-color: #9999ff; padding:5px 10px 5px 10px; border-radius:5px; font-size: 20px;" href="modules/quanlydanhmucsp/xuly.php?iddanhmuc=<?php echo $row['id_danhmuc'] ?>"><i class="fa fa-trash" style="color: red;" aria-hidden="true"></i></a> | 
+        <a style="text-decoration:none; background-color: #9999ff; padding:5px 10px 5px 10px; border-radius:5px; font-size: 20px;" href="?action=quanlydanhmucsanpham&query=sua&iddanhmuc=<?php echo $row['id_danhmuc'] ?>"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
     </td>
   </tr>
     <?php

@@ -27,9 +27,9 @@ if (isset($_POST['dangky'])) {
     }
 }
 ?>
-<h2 style="text-align:center">Đăng ký tài khoản</h2>
+<h2 style="text-align:center">ĐĂNG KÝ TÀI KHOẢN</h2>
 <form action="" method="post">
-<table width="95%" style="border-spacing: 10px;">
+<table width="95%" style="border-spacing: 10px; background-color: #d9d9d9; padding: 20px; border-radius: 10px;">
     <tr>
         <td style="width: 20%; font-size: 20px;">Tên khách hàng</td>
         <td><input style="width: 70%;" type="text" name="tenkhachhang"></td>
@@ -48,7 +48,7 @@ if (isset($_POST['dangky'])) {
     </tr>
     <tr>
         <td colspan="2"><input style="width: 10%; padding: 10px; font-size: 16px; background-color: #8080ff; color: white; border: none; border-radius: 5px;" type="submit" name="dangky" value="Đăng ký">
-        <a style="text-decoration: none; margin-left: 10px; padding: 10.5px; font-size: 16px; background-color: #8080ff; color: white; border: none; border-radius: 5px;" href="index.php?quanly=dangnhap">Đăng nhập</a></td>
+        <a style="text-decoration: none; margin-left: 10px; padding: 11px; font-size: 16px; background-color: #8080ff; color: white; border: none; border-radius: 5px;" href="index.php?quanly=dangnhap">Đăng nhập</a></td>
     </tr>
 </table>
 </form>

@@ -26,9 +26,9 @@ if(isset($_POST['doimatkhau'])) {
 }
 ?>
 <form action="" autocomplete="off" method="post">
-    <table width="40%" style="border-spacing: 10px; text-align:center; margin-left: 200px;">
+    <table width="40%" style="border-spacing: 10px; text-align:center; margin-left: 200px; background-color: #d9d9d9; padding: 20px; border-radius: 10px;">
         <tr>
-            <td><h3>Đăng nhập</h3></td>
+            <td><h3>ĐĂNG NHẬP</h3></td>
         </tr>
         <tr>
             <td style="padding: 10px;"><input style="width: 80%;" type="text" name="email" placeholder="Email Address"></td>
@@ -37,10 +37,10 @@ if(isset($_POST['doimatkhau'])) {
             <td style="padding: 10px;"><input style="width: 80%; padding: 10px 5px 10px 5px;" type="password" name="password" placeholder="Password"></td>
         </tr>
         <tr>
-            <td><button style="padding: 10px 45px; background-color:blue; border-radius:5px" type="submit" name="dangnhap">Sign in</button></td>
+            <td><button style="padding: 10px 45px; background-color:blue; border-radius:5px; color: white;" type="submit" name="dangnhap">Sign in</button></td>
         </tr>
         <tr>
-            <td><button style="padding: 10px 12px; background-color:blue; border-radius:5px" type="submit" name="doimatkhau">Change password</button></td>
+            <td><button style="padding: 10px 12px; background-color:blue; border-radius:5px; color: white;" type="submit" name="doimatkhau">Change password</button></td>
         </tr>
     </table>
     </form>

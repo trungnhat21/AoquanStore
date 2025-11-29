@@ -36,17 +36,17 @@
         <form method="POST" action="">
         <table border="1" style="border-collapse:collapse; width:70%; background-color:#8080ff">
             <tr>
-                <th colspan="2">Bạn cần hỗ trợ?</th>
+                <th colspan="2">BẠN CẦN HỖ TRỢ?</th>
             </tr>
             <tr style="border:none;">
-                <td><input style="background-color:#4d4dff; padding-right: 300px;" type="text" name="hoten" placeholder="Họ tên"></td>
+                <td><input style="background-color:#4d4dff; padding-right: 300px" type="text" name="hoten" placeholder="Họ tên"></td>
                 <td><input style="background-color:#4d4dff; padding: 12px 80px" type="email" name="email" placeholder="Email"></td>
             </tr>
             <tr style="border:none">
                 <td colspan="2" style="text-align:center; padding: 10px"><textarea style="width:600px; height:100px" name="noidung" placeholder="Nội dung"></textarea></td>
             </tr>
             <tr style="border:none">
-                <td colspan="2" style="text-align: center;"><button style="padding: 10px 40px; background-color:blue; border-radius:5px" type="submit" name="gui">Gửi</button></td>
+                <td colspan="2" style="text-align: center;"><button style="padding: 10px 40px; background-color:blue; border-radius:5px; color: white;" type="submit" name="gui">Gửi</button></td>
             </tr>
         </table>
         </form>

@@ -44,7 +44,7 @@
     <td><img src="admincp/modules/quanlysp/uploads/<?php echo $cart_item['hinhanh'] ?>" width="100px"></td>
     <td><?php echo number_format($cart_item['giasanpham'],0,',','.'). 'VNĐ' ?></td>
     <td><?php echo number_format($tien,0,',','.'). 'VNĐ'; ?></td>
-    <td><a style="text-decoration: none; color: red;" href="pages/main/themgiohang.php?xoa=<?php echo $cart_item['id']?>">Xóa</a></td>
+    <td><a style="text-decoration: none; color: red;" href="pages/main/themgiohang.php?xoa=<?php echo $cart_item['id']?>">Xóa <i class="fa fa-trash" aria-hidden="true"></i></a></td>
   </tr>
   <?php
   }
